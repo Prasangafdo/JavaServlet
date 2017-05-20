@@ -30,6 +30,8 @@ public class UserDB {
             String FirstName = resultSet.getString("FirstName");
             String LastName = resultSet.getString("LastName");
         }
+
+
     }
 
     /*public static void main(String[] args) throws Exception {
