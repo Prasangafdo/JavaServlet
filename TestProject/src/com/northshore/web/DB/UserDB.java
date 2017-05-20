@@ -34,7 +34,10 @@ public class UserDB {
             String FirstName = resultSet.getString("FirstName");
             String LastName = resultSet.getString("LastName");
 
-            System.out.println(ID);
+            System.out.println("ID: "+ID);
+            System.out.println("Password: "+Password);
+            System.out.println("FirstName: "+FirstName);
+            System.out.println("LastName: "+LastName);
         }
 
     }
